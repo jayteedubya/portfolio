@@ -7,7 +7,7 @@ export default function Header() {
             <ul>
                 <li className={styles['header-list']}><Link href='/'> home </Link></li>
                 <li className={styles['header-list']}><Link href='/aboutme'> about me </Link></li>
-                <li className={styles['header-list']}><Link href='/resume'>resume </Link></li>
+                <li className={styles['header-list']}><Link href='/resume'>resume & contact info </Link></li>
                 <li className={styles['header-list']}><Link href='/'> blog (under construction) </Link></li>
             </ul>
         </div>
